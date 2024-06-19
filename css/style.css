@@ -1,0 +1,453 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: red;
+    background-color: blanchedalmond;
+    background-size: 1500px;
+}
+
+header {
+    background: white;
+    padding: 10px 200px;
+    text-align: right;
+}
+
+header img {
+    height: 120px;
+    position: absolute;
+    top:5px;
+    left:200px;
+}
+
+.about h1 {
+    font-family: sans-serif;
+    text-align: left;
+    padding: 10px 200px;
+    color:black;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.about p {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 8px 220px;
+    color: black;
+}
+
+.banner ul img{
+    position: absolute;
+    top: 400px;
+    height: 600px;
+    margin: 0;
+    left: 50px;
+}
+
+.bigbrewminipic1 ul img{
+    position: absolute;
+    top: 1325px;
+    height: 760px;
+    margin: 0;
+    left: 0px;
+}
+
+.bigbrewminipic2 ul img{
+    position: absolute;
+    top: 1325px;
+    height: 759px;
+    margin: 0;
+    left: 760px;
+}
+
+.bigbrewbanner2 ul img{
+    position: absolute;
+    top: 450px;
+    height: 625px;
+    margin: 0;
+    left: 200px;
+}
+
+.bigbrewbanner3 ul img{
+    position: absolute;
+    top: 112px;
+    height: 760px;
+    margin: 0;
+    left: 0px;
+}
+
+.bigbrewminipic8 ul img{
+    position: absolute;
+    top: 868px;
+    height: 760px;
+    margin: 0;
+    left: 0px;
+}
+
+.bigbrewminipic4 ul img{
+    position: absolute;
+    top: 868px;
+    height: 759px;
+    margin: 0;
+    left: 760px;
+}
+
+.bigbrewminipic7 ul img{
+    position: absolute;
+    top: 2080px;
+    height: 760px;
+    margin: 0;
+    left: 0px;
+}
+
+.bigbrewminipic9 ul img{
+    position: absolute;
+    top: 2080px;
+    height: 759px;
+    margin: 0;
+    left: 760px;
+}
+.content h1{
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    background-color: blanchedalmond;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.video-container {
+  width: 100%; /* Set the width of the video container */
+  margin: 0 auto; /* Center the video horizontally */
+}
+
+video {
+  width: 100%; /* Make the video fill the container width */
+  display: block; /* Ensure the video is displayed as a block element */
+  position: relative;
+}
+
+button a{
+  text-decoration: none;
+  position: absolute;
+  top: 880px;
+  left: 678px;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: blanchedalmond;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+   text-decoration: none;
+}
+
+button a:hover {
+  background-color: white;
+  box-shadow: white;
+  color: black;
+  transform: translateY(-7px);
+}
+
+button a:active {
+  transform: translateY(-1px);
+}
+
+.design {
+    background-color: blanchedalmond;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 2837px;
+    padding: 20px;
+    width: 1479px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:absolute;
+    top: 2857px;
+    width: 1499px;
+}
+
+
+.privacy-policy a  {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Set the aspect ratio of the video (16:9) */
+}
+
+video {
+  position: absolute;
+  top: 538px;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  object-fit: cover; /* Ensure the video fills the container */
+}
+
+video::-webkit-media-controls {
+  display: none; /* Hide default controls on webkit browsers */
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none; /* Hide default controls on webkit browsers */
+}
+
+video::-webkit-media-controls-panel {
+  display: none; /* Hide default controls on webkit browsers */
+}
+
+video::-moz-media-controls {
+  display: none; /* Hide default controls on Mozilla Firefox */
+}
+
+video::-ms-media-controls {
+  display: none; /* Hide default controls on Microsoft Edge */
+}
+
+video::-ms-media-controls-timeline {
+  display: none; /* Hide default controls on Microsoft Edge */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.button {
+    display: inline;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+.info {
+    display: none;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px)
+{
+header img {
+    height: 100px;
+    position: absolute;
+    top:30px;
+    left:20px;
+}
+nav ul li {
+    display: inline;
+    margin-left: 80px;
+    font-size: 10px;
+}
+
+nav ul li:hover {
+    background-color: blanchedalmond;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 1px;
+}
+.content h1{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.banner ul img{
+    position: unset;
+    top: 200px;
+    height: 320px;
+    margin: 0;
+    left: 50px;
+}
+.about h1 {
+    font-family: sans-serif;
+    text-align: left;
+    padding: 10px 20px;
+    color:black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.about p {
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: left;
+    padding: 8px 20px;
+    color: black;
+}
+.video-container {
+    position: unset;
+    width: 100%; /* Set the width of the video container */
+}
+
+video {
+  width: 100%; /* Make the video fill the container width */
+  display: block; /* Ensure the video is displayed as a block element */
+}
+.bigbrewminipic1 ul img{
+    position: absolute;
+    top: 960px;
+    height: 200px;
+    margin: 0;
+    left: 0px;
+}
+
+.bigbrewminipic2 ul img{
+    position: absolute;
+    top: 960px;
+    height: 200px;
+    margin: 0;
+    left: 200px;
+}
+
+.bigbrewbanner2 ul img{
+    position: absolute;
+    top: 300px;
+    height: 225px;
+    margin: 0;
+    left: 0px;
+}
+
+.bigbrewbanner3 ul img{
+    position: absolute;
+    top:145px;
+    height: 200px;
+    margin: 0;
+    left: 0px;
+}
+
+.bigbrewminipic8 ul img{
+    position: absolute;
+    top: 345px;
+    height: 200px;
+    margin: 0;
+    left: 0px;
+}
+
+.bigbrewminipic4 ul img{
+    position: absolute;
+    top: 345px;
+    height: 200px;
+    margin: 0;
+    left: 200px;
+}
+
+.bigbrewminipic7 ul img{
+    position: absolute;
+    top: 1160px;
+    height: 200px;
+    margin: 0;
+    left: 0px;
+}
+
+.bigbrewminipic9 ul img{
+    position: absolute;
+    top: 1160px;
+    height: 200px;
+    margin: 0;
+    left: 200px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:absolute;
+    top: 1360px;
+    width: 380px;
+}
+footer p  {
+  font-size: 10px;
+  color: white;
+}
+.info {
+    display: none;
+    padding: 2px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: black;
+}
+button a{
+  text-decoration: none;
+  position: absolute;
+  top: 880px;
+  left: 130px;
+  padding: 1.3em 3em;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: blanchedalmond;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+   text-decoration: none;
+}
+
+button a:hover {
+  background-color: white;
+  box-shadow: white;
+  color: black;
+  transform: translateY(-7px);
+}
+
+button a:active {
+  transform: translateY(-1px);
+}
+}
